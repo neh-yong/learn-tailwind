@@ -4,9 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Project</title>
+
     <link rel="stylesheet" href="./output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="script.js" defer></script>
   </head>
+
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <header>
+      <nav class="flex items-center justify-between bg-white p-3">
+        <a href="#" id="brand" class="flex items-center gap-2">
+          <img
+            class="max-h-12 max-w-12 object-cover"
+            src="assets/asset 0.png"
+            alt="brand_image"
+          />
+          <span class="font-display text-lg font-medium">ToDesktop</span>
+        </a>
+
+        <div id="nav-menu" class="hidden gap-12 font-display lg:flex">
+          <a href="#" class="font-medium hover:text-primary">Pricing</a>
+          <a href="#" class="font-medium hover:text-primary">Docs</a>
+          <a href="#" class="font-medium hover:text-primary">Changelog</a>
+          <a href="#" class="font-medium hover:text-primary">Blogs</a>
+          <a href="#" class="font-medium hover:text-primary">Login</a>
+        </div>
+
+        <button
+          class="hidden items-center gap-2 rounded-lg border border-gray-400 px-6 py-2 font-display hover:border-gray-600 lg:flex"
+        >
+          <img src="assets/asset 1.svg" alt="electron_img" />
+          <span>Electron Developers</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <button class="p-2 lg:hidden" onclick="handleMenu()">
+          <i class="fa-solid fa-bars text-gray-600"></i>
+        </button>
+
+        <div
+          id="nav-dialog"
+          class="hidden z-10 md:hidden fixed inset-0 bg-white p-3"
+        >
+          <div id="nav-bar" class="flex justify-between">
+            <a href="#" id="brand" class="flex items-center gap-2">
+              <img
+                class="max-h-12 max-w-12 object-cover"
+                src="assets/asset 0.png"
+                alt="brand_image"
+              />
+              <span class="font-display text-lg font-medium">ToDesktop</span>
+            </a>
+
+            <button class="p-2 md:hidden" onclick="handleMenu()">
+              <i class="fa-solid fa-xmark text-gray-600"></i>
+            </button>
+          </div>
+
+          <div class="mt-6 font-display">
+            <a
+              href="#"
+              class="m-3 block rounded-lg p-3 font-medium hover:bg-gray-50"
+            >
+              Pricing
+            </a>
+
+            <a
+              href="#"
+              class="m-3 block rounded-lg p-3 font-medium hover:bg-gray-50"
+            >
+              Docs
+            </a>
+
+            <a
+              href="#"
+              class="m-3 block rounded-lg p-3 font-medium hover:bg-gray-50"
+            >
+              Changelog
+            </a>
+
+            <a
+              href="#"
+              class="m-3 block rounded-lg p-3 font-medium hover:bg-gray-50"
+            >
+              Blogs
+            </a>
+
+            <a
+              href="#"
+              class="m-3 block rounded-lg p-3 font-medium hover:bg-gray-50"
+            >
+              Login
+            </a>
+          </div>
+
+          <div class="h-[1px] bg-gray-300"></div>
+
+          <button
+            class="mt-6 flex w-full items-center gap-2 rounded-lg px-6 py-2 font-display hover:bg-gray-50"
+          >
+            <img src="assets/asset 1.svg" alt="electron_img" />
+            <span>Electron Developers</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>

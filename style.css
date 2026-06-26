@@ -2,6 +2,9 @@
 
 @import "tailwindcss";
 
-body {
-  font-family: "Poppins", sans-serif;
+@theme {
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-primary: #3238f2;
 }
