@@ -1,0 +1,4 @@
+# Bugs to fix 
+
+    1. Space between the Hero section and Companies section
+    2. Extra space on large screens in the company logos
