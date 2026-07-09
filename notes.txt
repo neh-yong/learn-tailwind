@@ -1,0 +1,6 @@
+1. Use of group 
+2. whitespace-no wrap
+3. gradient use
+4. Mobile first design
+5. Uses of max / min 
+6. adding custom styles (DRY)

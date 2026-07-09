@@ -282,8 +282,14 @@
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
+  }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-0 {
+    margin-block: 0;
   }
   .my-6 {
     margin-block: calc(var(--spacing) * 6);
@@ -471,6 +477,9 @@
   .gap-18 {
     gap: calc(var(--spacing) * 18);
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .rounded {
     border-radius: 0.25rem;
   }
@@ -574,6 +583,9 @@
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
@@ -668,6 +680,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
   }
   .text-gray-500 {
     color: var(--color-gray-500);
