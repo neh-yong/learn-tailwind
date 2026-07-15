@@ -3,4 +3,7 @@
 3. gradient use
 4. Mobile first design
 5. Uses of max / min 
-6. adding custom styles (DRY)
+6. defining custom styles for clean code (DRY) 
+7. w-fit, leading-relaxed
+8. use of meaningful name in id of the section/div
+
