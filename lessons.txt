@@ -7,4 +7,4 @@
 7. w-fit, w-full, leading-relaxed/snug/tight
 8. use of meaningful name in id of the section/div
 9. use of flex-1 and w-1/2 for equal division of div 
-
+10. space-y
