@@ -56,6 +56,3 @@ dtElements.forEach((element) => {
     ddArrowIcon.classList.toggle("-rotate-180");
   });
 });
-function handleFaq() {
-  faq_question.classList.toggle("hidden");
-}
