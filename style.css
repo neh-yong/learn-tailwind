@@ -2,6 +2,17 @@
 
 @import "tailwindcss";
 
+/* 
+==========================================
+Custom Tailwind Styles
+==========================================
+1. @theme      -> Design tokens (fonts, colors, spacing, etc.)
+2. @layer base -> Global styles (body, headings, html, etc.)
+3. Custom utility/component classes using @apply
+   (Create these only when the same utilities are reused multiple times.)
+==========================================
+*/
+
 @theme {
   --font-display: "Poppins", sans-serif;
   --font-body: "Inter", sans-serif;
@@ -18,7 +29,7 @@
   }
 
   .container{
-    @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32;
+    @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-10;
   }
 
   h1,h2,h3 {
